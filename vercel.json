@@ -2,8 +2,7 @@
   "routes": [
     {
       "src": "/(.*)",
-      "dest": "https://drludidi.wixsite.com/my-site-2/$1",
-      "status": 302
+      "dest": "/api/redirect"
     }
   ]
 }

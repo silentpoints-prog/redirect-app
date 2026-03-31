@@ -1,8 +1,11 @@
 {
   "routes": [
     {
-      "src": "/(.*)",
-      "dest": "/api/redirect"
+      "src": "^/if-female$",
+      "status": 302,
+      "headers": {
+        "Location": "https://drludidi.wixsite.com/my-site-2"
+      }
     }
   ]
 }

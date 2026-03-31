@@ -1,0 +1,9 @@
+{
+  "redirects": [
+    {
+      "source": "/(.*)",
+      "destination": "https://drludidi.wixsite.com/my-site-2/$1",
+      "permanent": false
+    }
+  ]
+}

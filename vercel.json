@@ -1,9 +1,9 @@
 {
-  "redirects": [
+  "routes": [
     {
-      "source": "/(.*)",
-      "destination": "https://drludidi.wixsite.com/my-site-2/$1",
-      "permanent": false
+      "src": "/(.*)",
+      "dest": "https://drludidi.wixsite.com/my-site-2/$1",
+      "status": 302
     }
   ]
 }
